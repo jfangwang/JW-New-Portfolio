@@ -1,6 +1,10 @@
 .background{
-  background-image:url(../images/UMass.png);height: 100%;
+  background-image: url(../images/Moraine-Lake.png);
+  height: 100%;
 	background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .blue{color:#4A86E8}
 .bgblue{background-color:#4A86E8}
@@ -30,7 +34,7 @@ a.icons:hover {
   background-repeat: no-repeat;
 
 }
-section{
+/* section{
   width:100%;
   height: 100%;
   border: 2px red solid;
@@ -41,11 +45,11 @@ section{
   z-index: 0;
 }
 .parallax{
-  /* Set a specific height */
+
   min-height: 500px;
-  /* Create the parallax scrolling effect */
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
