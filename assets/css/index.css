@@ -1,5 +1,7 @@
 body{
   margin:0;
+  font: 300 14px/1.8 'Quicksand', sans-serif;
+	overflow-x: hidden;
 }
 .intro {
   color:white;
@@ -7,11 +9,11 @@ body{
 	width: 100%;
 	top: 50%;
 	text-align: center;
-	-webkit-transform: translate(0%, -50%);
-	   -moz-transform: translate(0%, -50%);
-		-ms-transform: translate(0%, -50%);
-		 -o-transform: translate(0%, -50%);
-			transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%);
+	-o-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
 }
 .intro h1{
     font-weight: 800;
@@ -26,9 +28,53 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.homepage{
-  background-image: url(../images/Moraine-Lake.png);
-  background-size: cover; /* or contain depending on what you want */
-  background-position: center center;
-  background-repeat: no-repeat;
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>    NAVBAR    <<<<<<<<<<<<<<<<<<<<*/
+
+.Links{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav-links{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav-links {
+  /* border: 2px solid red; */
+  outline: none;
+  color: black;
+  text-decoration: none;
+}
+.nav-name{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+#nav{
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 18px;
+  font-family: Quicksand;
+}
+.header{
+  /* border: 2px solid red; */
+  background-color: none;
+}
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>    About Me    <<<<<<<<<<<<<<<<<<<<*/
+
+.title-block{
+  font-size: 80px;
 }

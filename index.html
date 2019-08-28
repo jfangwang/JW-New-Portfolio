@@ -2,7 +2,7 @@
 <!-- VERSION 2.0  -->
 <html lang="en">
 <head>
-	<title>V3</title>
+	<title>V2</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
@@ -16,8 +16,13 @@
 	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
 	<link href="assets/css/animate.css" rel="stylesheet">
 	<link href="assets/css/index.css" rel="stylesheet" media="screen">
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-
+	<!-- <link href="assets/css/style.css" rel="stylesheet" media="screen"> -->
+	<!-- <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+	<script>
+    $(window).load(function(){
+      $("#sticker").sticky({ topSpacing: 0, className:"hey" });
+    });
+  </script>
 
 </head>
 
@@ -44,32 +49,18 @@
 
 	<!-- Navigation start -->
 
-	<header class="header ">
+	<header class="header">
 
-		<nav class="navbar navbar-custom " role="navigation">
+		<nav id="nav" class="hey" role="navigation">
 
-			<div class="container">
+			<div class="nav-container">
 
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand "href="">Jonny Wang</a>
-				</div>
-
-				<div class="collapse navbar-collapse " id="custom-collapse">
-					<ul class="nav navbar-nav navbar-right ">
-						<li><a href="#Home">Home</a></li>
-						<li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Interests</a></li>
-						<li><a href="#testimonials">Accomplishments</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<li><a href="JW-resume.html">Resume</a></li>
-					</ul>
+				<div class="Links" id="">
+						<a class="nav-links" href="#Home">Home</a>
+						<a class="nav-links" href="#about">Intro</a>
+            <a class="nav-links" href="#projects">Projects</a>
+						<a class="nav-links" href="#contact">Contact</a>
+						<a class="nav-links" href="JW-resume.html">Resume</a>
 				</div>
 
 
@@ -87,13 +78,14 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-sm-6 col-sm-offset-3">
+				<div class="">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">This is me</h2>
+						<h2 class="pfblock-title title-block">This is me</h2>
+						<br/><br/><br/><br/><br/>
 						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">Aspiring Computer Science Major</div>
-						<div class="pfblock-subtitle">Mendham Highschool '18</div>
+						<div class="pfblock-subtitle">Computer Science Major</div>
+						<div class="pfblock-subtitle">UMass Amherst Sophmore Student</div>
 						<div class="pfblock-subtitle">Self-Taught Programmer</div>
 						<div class="pfblock-subtitle">3-time NJ Soccer State Champion</div>
 					</div>
@@ -167,9 +159,9 @@
 				<div class="col-sm-12">
 					<ul class="social-links">
 					<p>Find me on social media.</p>
-					<li><a href="https://www.snapchat.com/add/jfangwang"> <img class= "imgSnapchat" src="assets/images/snapchat2.png" width=28 height=28 top="10"alt="https://www.snapchat.com/"></a></li>
-					<li><a href="https://www.facebook.com/jonny.wang.5074"> <img class= "imgFacebook" src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-1-400x400.png" width=47 height=47 alt="https://www.facebook.com/"></a></li>
-					<li><a href="https://www.instagram.com/jfangwang/"> <img class= "imgInstagram" src="https://www.seeklogo.net/wp-content/uploads/2016/06/Instagram-logo.png" width=43 height=43 alt="https://www.instagram.com/" ></a></li>
+					<a href="https://www.snapchat.com/add/jfangwang"> <img class= "imgSnapchat" src="assets/images/snapchat2.png" width=28 height=28 top="10"alt="https://www.snapchat.com/"></a></li>
+					<a href="https://www.facebook.com/jonny.wang.5074"> <img class= "imgFacebook" src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-1-400x400.png" width=47 height=47 alt="https://www.facebook.com/"></a></li>
+					<a href="https://www.instagram.com/jfangwang/"> <img class= "imgInstagram" src="https://www.seeklogo.net/wp-content/uploads/2016/06/Instagram-logo.png" width=43 height=43 alt="https://www.instagram.com/" ></a></li>
 					<li><a href="https://mobile.twitter.com/jfangwang"><img class= "imgTwitter" src="https://www.seeklogo.net/wp-content/uploads/2015/11/twitter-logo.png" width=43 height=43 alt="https://twitter.com/"></a></li>
 					<li><a href="https://github.com/jfangwang"><img class= "imgGithub" src="http://abb1991.github.io/images/thumbnails/github-logo.svg" width=42 height=42 alt="https://github.com/"></a></li>
 					<li></ul>																																<!--https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ei-sc-github.svg/768px-Ei-sc-github.svg.png-->
@@ -199,6 +191,7 @@
 	</div>
 
 	<!-- Javascript files -->
+
 
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
