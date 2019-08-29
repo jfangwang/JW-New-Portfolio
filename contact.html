@@ -3,8 +3,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="assets/css/contact.css" rel="stylesheet" media="screen">
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+<link href="assets/css/animate.css" rel="stylesheet">
 <title>V3 Contact</title>
 </head>
+<!-- CSS -->
+
 <body>
 
   <section id="Home" class="pfblock-image screen-height background">
@@ -18,26 +24,43 @@
 
   <!-- Navigation start -->
 
-  <header class="header">
+  <!-- Navigation start -->
 
-    <nav id="nav" class="" role="navigation">
+	<header class="header ">
 
-      <div class="nav-container">
+		<nav class="navbar navbar-custom " role="navigation">
 
-        <div class="Links" id="">
-            <a class="nav-links" href="#Home">Home</a>
-            <a class="nav-links" href="#about">Intro</a>
-            <a class="nav-links" href="#projects">Projects</a>
-            <a class="nav-links" href="contact.html">Contact</a>
-            <a class="nav-links" href="JW-resume.html">Resume</a>
-        </div>
+			<div class="container">
 
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand "href="">Jonny Wang</a>
+				</div>
 
-      </div><!-- .container -->
+				<div class="collapse navbar-collapse " id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right ">
+						<li><a href="#Home">Home</a></li>
+						<li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Interests</a></li>
+						<li><a href="#testimonials">Accomplishments</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="JW-resume.html">Resume</a></li>
+					</ul>
+				</div>
 
-    </nav>
+			</div><!-- .container -->
 
-  </header>
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
 
 <div class="content">
   <h3>Sticky Navigation Example</h3>
@@ -51,31 +74,18 @@
   <h3>Sticky Navigation Example</h3>
   <h3>Sticky Navigation Example</h3>
   <h3>Sticky Navigation Example</h3>
-  
+  <h3>Sticky Navigation Example</h3>
+  <h3>Sticky Navigation Example</h3>
+  <h3>Sticky Navigation Example</h3>
+  <h3>Sticky Navigation Example</h3>
+  <h3>Sticky Navigation Example</h3>
+  <h3>Sticky Navigation Example</h3>
+  <h3>Sticky Navigation Example</h3>
+  <h3>Sticky Navigation Example</h3>
+
+
 </div>
 
-<script type="text/javascript">
-
-
-window.onscroll = function() {myFunction()};
-var navbar = document.getElementById("navbar");
-var sticky = window.innerHeight;
-function changeScreenHeight(){
-  sticky = window.innerHeight;
-}
-window.addEventListener('resize',function(){
-  changeScreenHeight();
-  console.log("Calling changeScreenHeight, the inner screen height is "+ window.innerHeight);
-});
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-</script>
 <!-- Scroll to top -->
 <div class="scroll-up">
   <a href="#Home"><i class="fa fa-angle-up"></i></a>
