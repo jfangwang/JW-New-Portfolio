@@ -97,9 +97,10 @@
 		/* ---------------------------------------------- */
 
 		$(".screen-height").height($(window).height());
-
+		var screenHeight = $(window).height();
 		$(window).resize(function(){
 			$(".screen-height").height($(window).height());
+			var screenHeight = $(window).height();
 		});
 
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
