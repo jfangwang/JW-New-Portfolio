@@ -1,0 +1,39 @@
+@keyframes showloader {
+  from {height: 0vh;}
+  to {height: 100vh;}
+}
+@keyframes hideloader {
+  from {height: 100vh;}
+  to {height: 0vh;}
+}
+@keyframes fadein{
+  from{opacity:0}
+  to{opacity:1}
+}
+@keyframes pageLoader {
+  0%{height:0vh; }
+  20% {height:100vh;}
+  80%{ height:100vh;}
+  97%{display: show}
+  100%{height: 0vh;display: none;}
+}
+section{
+  animation:fadein 4s;
+}
+.page-loader{
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  height: 0vh;
+  width:100vw;
+  display: flex;
+  background-color: red;
+  font-size: 5.27vw;
+  font-family: quicksand-bold;
+  position: relative;
+  animation: pageLoader 3s;
+  align-items: center;
+  justify-content: center;
+	overflow: hidden;
+
+}

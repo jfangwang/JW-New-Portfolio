@@ -1,0 +1,74 @@
+/* FONTS */
+@font-face {
+	font-family: quicksand-light;
+	src: url("fonts/Quicksand-Light.ttf");
+	font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+	font-family: quicksand-bold;
+	src: url("fonts/Quicksand-Bold.ttf");
+	font-style: normal;
+  font-weight: 400;
+}
+
+
+
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: quicksand-light;
+}
+body{
+  	z-index: 0;
+}
+section{
+  position: relative;
+	min-height: 100vh;
+	height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro{
+  background-color: white;
+}
+#about{
+  background-color: green;
+}
+
+/* SCROLL BAR */
+.progress-bar {
+	height: 0%;
+	background: #ff4438;
+	width: 10px
+}
+.progress-container {
+	width: 10px;
+	height: 100vh;
+	background: rgba(204, 204, 204, .3);
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 12
+}
+::-webkit-scrollbar {
+	width: 0;
+	background: 0 0
+}
+::-webkit-scrollbar-thumb {
+	background: red
+}
+/* END SCROLL BAR */
+
+/* FOOTER */
+.footer {
+	padding: 90px 0 95px;
+	background-color: black;
+  color:white;
+  text-align: center;
+}
+/* END FOOTER */
