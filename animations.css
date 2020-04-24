@@ -35,6 +35,7 @@ section{
 	overflow: hidden;
   align-items: center;
   justify-content: center;
+  position: fixed;
 }
 .div-space div{
   margin-right:20px;
