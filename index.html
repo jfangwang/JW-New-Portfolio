@@ -7,15 +7,23 @@
     <link rel="stylesheet" href="animations.css">
     <script type="text/javascript" src="hamburger.js"></script>
   </head>
-  <body>
+  <body onload="pageLoaded()">
     <!-- LOADER -->
-    <!-- <div class="page-loader div-space">
+    <div class="page-loader div-space">
       <div class="L-1">Welcome</div>
       <div class="L-3">to</div>
       <div class="L-2">my </div>
       <div class="L-4">page</div>
-    </div> -->
+    </div>
     <!-- END LOADER -->
+
+    <!-- NAV MENU -->
+
+    <div class="nav-menu nav-menu-close" id="navMenu">
+      Nav menu
+    </div>
+
+    <!-- END OF NAV MENU -->
 <!-- SCROLL BAR -->
     <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
@@ -26,7 +34,7 @@
 
   <ul class="navbar">
     <li class="home"><a href="#home">Jonny Wang</a></li>
-    <button class="hamburger nav-icon1" id="hamburger" onclick="burgerFunction()">
+    <button class="hamburger nav-icon1" id="hamburger" onclick="burgerFunction();">
     <span></span>
     <span></span>
     <span></span>
