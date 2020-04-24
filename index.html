@@ -2,25 +2,37 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>In Progress</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="mediaQueries.css">
     <script type="text/javascript" src="hamburger.js"></script>
   </head>
   <body onload="pageLoaded()">
     <!-- LOADER -->
-    <div class="page-loader div-space">
+    <!-- <div class="page-loader div-space">
       <div class="L-1">Welcome</div>
       <div class="L-3">to</div>
       <div class="L-2">my </div>
       <div class="L-4">page</div>
-    </div>
+    </div> -->
     <!-- END LOADER -->
 
     <!-- NAV MENU -->
 
     <div class="nav-menu nav-menu-close" id="navMenu">
-      Nav menu
+      <div class="nav-menu-left">
+      </div>
+      <div class="nav-menu-right">
+        <ul>
+        <li><a><h2>Home</h2></a></li>
+        <li><a><h2>Who I Am</h2></a></li>
+        <li><a><h2>Where I've Been</h2></a></li>
+        <li><a><h2>Projects</h2></a></li>
+        <li><a><h2>Contact</h2></a></li>
+      </ul>
+      </div>
     </div>
 
     <!-- END OF NAV MENU -->
@@ -33,7 +45,7 @@
 
 
   <ul class="navbar">
-    <li class="home"><a href="#home">Jonny Wang</a></li>
+    <li class="home" id="home"><a href="#intro">Jonny Wang</a></li>
     <button class="hamburger nav-icon1" id="hamburger" onclick="burgerFunction();">
     <span></span>
     <span></span>
@@ -43,13 +55,14 @@
 
 <!-- END NAVBAR -->
     <section id="intro">
-      <h1 style="font-size: 5.27vw;">Welcome</h1>
+      <h1>Welcome</h1>
     </section>
     <section id="about">
       <h1>about</h1>
     </section>
     <div class="footer">
-      Footer
+      <h1>Footer</h1>
+
     </div>
   </body>
 </html>

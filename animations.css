@@ -32,7 +32,6 @@ section{
   width:100vw;
   display: flex;
   background-color: red;
-  font-size: 5.27vw;
   position: relative;
   animation: pageLoader 3s;
 	overflow: hidden;
@@ -48,11 +47,9 @@ section{
   width:0vw;
   display: flex;
   background-color: orange;
-  font-size: 5.27vw;
   position: relative;
 	overflow: hidden;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   position: fixed;
 }
 .nav-menu-open{
