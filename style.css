@@ -84,7 +84,7 @@ button{
 }
 button:focus {outline:0;}
 
-.hamger{
+.hamburger{
 	display: flex;
 	align-items: center;
   position: relative;
