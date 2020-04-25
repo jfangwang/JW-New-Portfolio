@@ -25,7 +25,7 @@ section{
   animation:fadein 3s;
 }
 .page-loader{
-  z-index: 9999;
+  z-index: 100;
   top: 0;
   left: 0;
   height: 0vh;
@@ -40,14 +40,14 @@ section{
   position: fixed;
 }
 .nav-menu{
-  z-index: 900;
+  z-index: 100;
   top: 0;
   left: 0;
   height: 100vh;
   width:0vw;
   display: flex;
   background-color: orange;
-  position: relative;
+  position: fixed;
 	overflow: hidden;
   justify-content: space-around;
   position: fixed;
@@ -60,7 +60,6 @@ section{
 .nav-menu-close{
   animation: closeMenu 1s;
     width:0vw;
-
 }
 .div-space div{
   margin-right:20px;

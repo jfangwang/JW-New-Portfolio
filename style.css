@@ -11,13 +11,8 @@
 
 }
 
-
-
-
-
 html, body{
     margin: 0;
-    padding: 0;
     font-family: quicksand-light;
 }
 body{
@@ -40,39 +35,43 @@ a:hover{
 }
 
 #intro{
-  background-color: white;
+	background-image: url("penguinHello.gif");
+	background-size: cover;
+	background-position: center;
+	top:0;
+	bottom:0;
 }
 #about{
-  background-color: green;
+  background-color: white;
 }
 
 
 /* NAVBAR */
 .navbar {
   list-style-type: none;
-  padding: 1em 0em 0em 0em;
-  padding: 0;
   overflow: hidden;
   display: flex;
-  width:100vw;
+  width:92%;
   justify-content: space-between;
   position: fixed;
-  z-index: 9998;
+  z-index: 100;
+	border: 1px solid red;
+}
+.resume{
+	list-style-type: none;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
 }
 
 li {
-  float: left;
 }
 
 li div{
   display: block;
-  padding: 8px;
   background-color: #dddddd;
-}
-.home{
-	display: flex;
-	align-items: center;
-	margin-left: 1em;
 }
 
 button{
@@ -85,13 +84,13 @@ button{
 }
 button:focus {outline:0;}
 
-.hamburger{
+.hamger{
 	display: flex;
 	align-items: center;
   position: relative;
 	width:30px;
 	height:30px;
-	margin-right: 2em;
+	z-index:100;
 }
 .hamburger span{
 	display: block;
@@ -172,7 +171,6 @@ button:focus {outline:0;}
 	display: flex;
 	left:0em;
 	width: 100%;
-	margin: 0.1em 0;
 }
 .nav-menu-left{
 	/* border: 2px solid red; */
